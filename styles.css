@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Smooch', cursive;
+    font-size: large;
+    background: #fafafa;
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    position: fixed; 
+    /* para que se vea siempre la barra sin importar si se se hace scroll */
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 50px;
+     background: #fff;
+     border-bottom: 1px solid #dfdfdf;
+     padding: 5px 0;
+     /* aqui se la esta dando un borde a la barra */
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 0;
+    margin-top: 50px;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 70%;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+}
